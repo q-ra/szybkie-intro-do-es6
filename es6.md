@@ -50,7 +50,7 @@ OBIAD = 'pierogi' // błąd
 
 ### gruba strzałka () => {}
 * this zależy od sposobu deklaracji, a nie sposobu w jaki [wywoła się funkcje](http://book.mixu.net/node/single.html#4-1-gotcha-1-this-keyword)
-* Uprascza zapis
+* Upraszcza zapis
 ```javascript
 () => { ... } // bez parametru
 x => { ... } // 1 parametr
@@ -327,7 +327,7 @@ class Class {
 * nie uzywac var tylko let i const
 * spacje obok operatorow np x += 1 
 * używać klas
-* słówko raczej tylko przy klasach
+* słówko new raczej tylko przy klasach
 * 2 spacje na wciecie
 * 1 spacja przed otwierajaca klamerka
 
