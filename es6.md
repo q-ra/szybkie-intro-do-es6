@@ -260,7 +260,7 @@ Array.from(document.querySelectorAll('*')) // Zamienia pseudo tablice na tablice
 * Metody:
   * Promise.all	-- przyjmuje tablice promisów i zwraca nowego gdy wszystkie sie wykonaja
   * Promise.prototype.catch -- wywolywane po rejectie	
-  * Promise.prototype.then	-- wywoływane po then
+  * Promise.prototype.then	-- wywoływane po resolve
   * Promise.race	-- nowy promise z promisa który wykona się jako pierwszy
   * Promise.reject	-- wywołuje schainowanego catcha
   * Promise.resolve -- wyowołuje schainowanego thena
