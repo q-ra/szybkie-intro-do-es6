@@ -1,6 +1,4 @@
-Vue.js
-[![vue](http://www.paperplane.software/wp-content/uploads/2016/11/vue-logo.png)](https://vuejs.org/)
-
+# [Vue.js](https://vuejs.org/)
 Statystyki
  * maluteńki framwork - 18kb, [prosty](https://vuejs.org/v2/api/) 
  * [popularny/ najszybciej zdobywajacy popularnosc framework na githubie](http://bestof.js.org/tags/framework/trending/this-month)
