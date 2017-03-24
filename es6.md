@@ -11,7 +11,7 @@
 
 ```javascript
 'use strict'
-x = 3.14    //błąd -- aby zadeklarować: this.x , let x, const x, var x itp
+x = 3.14 //błąd -- aby zadeklarować: this.x , let x, const x, var x itp
 eval('var x = 2'); alert (x) // błąd - nie można używać zmiennych zadeklarowanych w eval w tym samym scopie
 with(Math) { x = cos(2) } //błąd
 delete Object.prototype //błąd
@@ -305,6 +305,11 @@ new Nigthmare({show: true})
   }) 
 \\...
 ```
+Ciekawostka:
+[Standard ES6 na Safari jest bardziej wspierane od ES5](http://kangax.github.io/compat-table/es6/)
+
+[Więcej](http://exploringjs.com/es6/)
+
 # Styl
 
 * 'use strict'

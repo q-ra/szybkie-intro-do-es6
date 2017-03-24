@@ -18,8 +18,10 @@ Po co? -- Wymuszenie porządku w jsach, logiki na froncie, struktury kodu [new V
 * [wszystkie eventy na jakie odpowiada w jednym miejscu](https://vuejs.org/v2/guide/events.html)
 * każdy html/ haml jest prawidłowym templetem nie potrzeba udziwnień typu jsx
 * [obsługa formularzy](https://vuejs.org/v2/guide/forms.html)
+* two-way data-binding
 
 [5 minutowy tutorial](https://vuejs.org/v2/guide/)
 
+[30 minutowy tutorial](https://youtu.be/VPUdtEf3oXI)
 
 
