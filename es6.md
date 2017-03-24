@@ -61,7 +61,7 @@ x => x * x  // to samo co wyżej, preferowany zapis dla krótkich funckji
 
 ### Klasy
 * chyba nie trzeba tłumaczyć
-* dodatkowo get i set wspieraja [lazy evaluation](https://pl.wikipedia.org/wiki/Warto%C5%9Bciowanie_leniwe)
+* dodatkowo get i set wspieraja [lazy evaluation](https://www.quora.com/What-is-lazy-evaluation)
 ```javascript
 'use strict'
 class Prostokat {
@@ -152,7 +152,7 @@ let arr2 = [...arr1]
 
 ### Iteratory
 * obiekty podobne do funkcji zapamietujace swoj stan
-* [lazy evaluation](https://pl.wikipedia.org/wiki/Warto%C5%9Bciowanie_leniwe)
+* [lazy evaluation](https://www.quora.com/What-is-lazy-evaluation)
 * wydajne
 ```javascript
   function* idMaker() {
@@ -212,7 +212,7 @@ for (let i of arr) {
 }
 ```
 ### Nowe struktury danych Map, Set i inne
-* Set - zbió matematyczny
+* Set - zbiór matematyczny
 * Map - obiekt którego kluczami może być praktycznie wszystko
 ```javascritp
 var s = new Set()
@@ -304,7 +304,7 @@ new Nigthmare({show: true})
     this.emit('scanningError')
   }) 
 \\...
-
+```
 # Styl
 
 * 'use strict'
