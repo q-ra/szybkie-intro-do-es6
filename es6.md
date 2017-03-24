@@ -251,14 +251,14 @@ Array.from(document.querySelectorAll('*')) // Zamienia pseudo tablice na tablice
 
 ### NATYWNE PROMISY
 * alternatywa dla callbacków
-* [chainowanie](https://mdn.mozillademos.org/files/8633/promises.png) asynchronicznych operacji!!
+* [chainowanie](https://mdn.mozillademos.org/files/8633/promises.png) asynchronicznych operacji!
 * Promise może być w jednym z trzech stanów
   * pending
   * fulfilled
   * rejected
 
 * Metody:
-  * Promise.all	-- nowy promise który przyjmuje promisy i zwraca nowego gdy wszystkie sie wykonaja
+  * Promise.all	-- przyjmuje tablice promisów i zwraca nowego gdy wszystkie sie wykonaja
   * Promise.prototype.catch -- wywolywane po rejectie	
   * Promise.prototype.then	-- wywoływane po then
   * Promise.race	-- nowy promise z promisa który wykona się jako pierwszy
@@ -306,7 +306,7 @@ new Nigthmare({show: true})
 \\...
 ```
 Ciekawostka:
-[Standard ES6 na Safari jest bardziej wspierane od ES5](http://kangax.github.io/compat-table/es6/)
+[Standard ES6 na Safari jest lepiej wspierany od ES5](http://kangax.github.io/compat-table/es6/)
 
 [Więcej](http://exploringjs.com/es6/)
 
